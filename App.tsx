@@ -8,7 +8,7 @@ import utilities from "./tailwind.json";
 import RootNavigator from "navigator/RootNavigator";
 
 const client = new ApolloClient({
-    uri: "http://localhost:5001/api/early-hedgehog/",
+    uri: "http://localhost:5001/api/early-hedgehog",
     cache: new InMemoryCache(),
 });
 
